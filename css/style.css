@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+* {margin: 0; padding: 0;}
+a {text-decoration: none;}
+.fl {float: left;}
+
+#wrap {width: 1000px; margin: 0;}
+#wrap header {width: 200px; height: 650px;}
+#wrap header .logo {width: 200px; height: 100px; background: #65C18C;}
+#wrap header .menu {width: 200px; height: 550px; background: #C1F4C5;}
+
+#wrap #center {width: 800px; height: 650px;}
+#wrap #center .slide {width: 800px; height: 350px; position: relative; overflow: hidden;}
+#wrap #center .slide .slideLeft {width: 2400px; height: 350px; position: absolute; top: 0; left: 0;}
+#wrap #center .slide .slideLeft img {display: block;}
+
+#wrap #center .con {width: 800px; height: 200px;}
+#wrap #center .con .notice {width: 267px; height: 200px; background: #F2C9E1;}
+#wrap #center .con .gallery {width: 266px; height: 200px; background: #DFF6FF;}
+#wrap #center .con .banner {width: 267px; height: 200px; background: #5902EC;}
+
+
+#wrap #center footer {width: 800px; height: 100px;}
+#wrap #center footer .blogo {width: 150px; height: 100px; background: #5D8BF4;}
+#wrap #center footer .copyright {width: 500px; height: 100px; background: #051367;}
+#wrap #center footer .bmenu {width: 150px; height: 100px; background: #2D31FA;}
